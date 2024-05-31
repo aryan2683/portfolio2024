@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Aryan-portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html {
+    scroll-behavior: smooth;
+}
+
+        body {
+            background-color: rgb(2, 2, 82);
+            color: white;
+            font-family: "Oswald", sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(2, 2, 55);
+        }
+
+        nav ul {
+            display: flex;
+
+            justify-content: center;
+
+        }
+
+        ul li {
+            padding: 10px;
+            list-style: none;
+            margin: 0 23px;
+            font-size: larger;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .left {
+            font-size: 27px;
+            font-weight: bold;
+        }
+
+        .left:hover {
+            border: 2px solid black;
+            border-width: 10px;
+            border-spacing: 5px;
+            background-color: black;
+        }
+
+        .right {
+            font-size: 17px;
+            letter-spacing: 2px;
+
+        }
+
+        li:hover {
+            color: rgb(136, 133, 133);
+            cursor: pointer;
+            border: 2px solid grey;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+        }
+
+        .firstsection div {
+            width: 30%;
+
+
+        }
+
+        .leftsection {
+            margin-left: -81px;
+        }
+
+        .leftsection div {
+            height: 450px;
+            width: 500px;
+            font-size: 37px;
+            text-align: justify;
+            margin-top: 140px;
+            border: 2px solid black;
+            line-height: 200%;
+        }
+
+        .rightsection {
+            margin-right: 40px;
+        }
+
+        .rightsection img {
+            height: 450px;
+            width: 550px;
+
+        }
+
+        .purple {
+            color: rgb(10, 255, 255);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 45px;
+            height: 80vh;
+        }
+
+        h1 {
+            font-size: 40px;
+            ;
+            font-weight: 450;
+            font-family: "Oswald", sans-serif;
+            ;
+            letter-spacing: 1px;
+
+            width: 100%;
+            margin: auto;
+            margin-top: 20px;
+            margin-left: 160px;
+
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 6px 0;
+            display: flex;
+        }
+        .secondsection h2 a span{
+            color:white;
+            font-size: small;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .secondsection h2 a span:hover{
+            color:white;
+            font-size: small;
+        }
+
+        .secondsection h2 a {
+            color: white;
+            font-size: 25px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            text-decoration: none;
+        }
+
+        .secondsection h2 a:hover {
+            color: wheat;
+            font-size: 27px;
+        }
+
+        .box1 {
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+
+        }
+
+        .left-box1 {
+
+            margin-left: -97px;
+        }
+
+        .left-box1 p {
+            font-size: 19px;
+            color: rgb(238, 175, 175);
+        }
+
+        .left-box1 ul li {
+            font-size: 19px;
+            color: rgb(238, 175, 175);
+            list-style-type: decimal;
+            cursor: default;
+        }
+
+        .right-box1 {
+            border: 2px solid gray;
+            margin-right: -100px;
+        }
+
+        .right-box1 img {
+            height: 450px;
+            width: 650px;
+            margin-left: 0px;
+            border: 2px solid black;
+        }
+
+
+        .thirdsection {
+            max-width: 80vw;
+            margin: auto;
+            margin-top: 45px;
+            height: 80vh;
+        }
+
+
+        .thirdsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 6px 0;
+
+        }
+
+        .thirdsection h2  a {
+            color: white;
+            font-size: 25px;
+            font-family: "Poppins", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            text-decoration: none;
+
+        }
+        .thirdsection h2 a span{
+            color:white;
+            font-size: small;
+            font-family:'Courier New', Courier, monospace;
+        }
+        .thirdsection h2 a span:hover{
+            color:white;
+            font-size: small;
+        }
+
+        .thirdsection h2 a:hover {
+            color: wheat;
+            font-size: 27px;
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 100px;
+
+        }
+
+        .left-box2 {
+
+            margin-left: -97px;
+        }
+
+        .left-box2 p {
+            font-size: 19px;
+            color: rgb(238, 175, 175);
+        }
+
+        .left-box2 ul li {
+            font-size: 19px;
+            color: rgb(238, 175, 175);
+            list-style-type: decimal;
+            cursor: default;
+        }
+
+        .right-box2 {
+            border: 2px solid gray;
+            margin-right: -100px;
+        }
+
+        .right-box2 img {
+            height: 450px;
+            width: 650px;
+            margin-left: 0px;
+            border: 2px solid black;
+        }
+
+        .expsection {
+
+            max-width: 80vw;
+            margin-left: 120px;
+            margin-bottom: -200px;
+            margin-top: 45px;
+            height: 80vh;
+        }
+
+
+        .expsection .box {
+            background: black;
+            width: 100%;
+
+            height: 7px;
+            margin: 6px 0;
+            display: flex;
+border:2px solid white;
+        }
+
+        .expsection .vertical {
+            height: 15vh;
+            width: 7px;
+            
+            margin: auto;
+            border:2px solid white;
+          background-color:black;
+
+        }
+
+        .expsection .vertical .vertical-target {
+            position: relative;
+            top: 50px;
+            right: 26px;
+            width: 150px;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            height: 20px;
+            display: flex;
+        
+
+        }
+.expsection .vertical img{
+    height:65px;
+    width:65px;
+     position: relative;
+     top:-60px;
+     right:28px;
+    
+}
+
+
+
+
+        .expsection .vertical a {
+            position: relative;
+            top: 95px;
+            right: 22px;
+            width: 150px;
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            height: 20px;
+            display: flex;
+
+
+
+        }
+
+        .expsection .vertical a:hover {
+            color: wheat;
+            transform: scale(1.1);
+            /* Scale up on hover */
+            background-color: #1c61aa;
+            /* Darker background color */
+            border-color: #01070f;
+            /* Darker border color */
+            box-shadow: 0 0 10px rgba(6, 13, 21, 0.8);
+            /* Increase shadow intensity */
+        }
+
+
+        .contactsection {
+
+            max-width: 80vw;
+            margin-left: 120px;
+            margin-bottom: -200px;
+            margin-top: 45px;
+            height:63vh;
+            background-color: black;
+        }
+
+
+        .contactsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 6px 0;
+            display: flex;
+
+        }
+
+        .contactsection .contact-target {
+margin:auto;
+
+            color: white;
+            height: fit-content;
+            width: 80%;
+            margin: 10px;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        
+        .handles{
+            
+            display: flex;
+            justify-content: space-evenly;
+            align-items:center;
+            margin:13vh 0;
+            padding:1px;
+        }
+        .handles img{
+            height:60px;
+            width:60px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="left">ARYAN'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#header">Home </a></li>
+                    <li><a href="#work">My Work</a> </li>
+                    <li><a href="#experience">Experience </a> </li>
+                    <li><a href="#contact">Contact Me</a> </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <section class="firstsection">
+            <div class="leftsection">
+                <div>Greetings, I am <span class="purple"> ARYAN SINGHAL</span> !<br>and you are looking at my
+                    portfolio.<span id="element"></span></div>
+            </div>
+            <div class="rightsection">
+                <img src="/bg.gif" alt="">
+            </div>
+        </section>
+        <hr id="work">
+
+
+        <h1 >MY WORK</h1>
+        <section  class="secondsection">
+            <div class="box"></div><br>
+            <h2><a href="https://evershine-dental.com/" target="_blank">EVERSHINE-DENTAL CLINIC <span>(click to visit)</span></a></h2><br><br>
+            <div class="box1"><br>
+
+                <div class="left-box1">
+                    <p> Evershine Dental,I have provided a seamless and user-friendly interface that reflects the
+                        professionalism and quality of service.From implementing responsive layouts to optimizing
+                        performance, I strive to ensure that every aspect of the website meets the needs and
+                        expectations of our valued patients. </p><br>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVASCRIPT</li>
+                        <li>MS EXCEL</li>
+                    </ul>
+                </div>
+                <div class="right-box1"> <img src="/left-box1.png" alt=""></div>
+            </div>
+
+        </section>
+        <br> <br>
+        <section class="thirdsection">
+
+            <h2><a href="/" target="_blank">SHOWKICKS<span>(click to visit)</span></a></h2><br><br>
+            <div class="box2"><br>
+
+                <div class="left-box2">
+                    <p> Your premier sneaker destination, powered by the MERN stack. Explore a curated collection of
+                        top-notch sneakers, shop securely, and step up your footwear game with ease. Elevate your style
+                        with ShowKicks today! </p><br>
+                    <ul>
+                        <li>MONGODB</li>
+                        <li>EXPRESS</li>
+                        <li>REACTJS</li>
+                        <li>NODEJS</li>
+                    </ul>
+                </div>
+                <div class="right-box2"> <img src="" alt=""></div>
+            </div>
+
+        </section> <br><br><br>
+        <hr id="experience">
+
+
+        <h1>EXPERIENCE</h1><br><br>
+        <section class="expsection">
+            <div class="box"><br>
+
+                <div class="vertical" ><img src="/intern.png" alt="">
+                    <div class="vertical-target">Panasonic Intern<br>(2023-2024)</div><a href="/">(Click here)</a>
+                </div>
+                <div class="vertical"><img src="/intern.png" alt="">
+                    <div class="vertical-target">ITC Intern<br>(2024-2025)</div><a href="/">(Click here)</a>
+                </div>
+            </div>
+        </section>
+        <hr id="contact">
+        <h1>Contact Me</h1>
+        <section class="contactsection">
+            <div class="box"></div><br>
+            <div class="contact-target">Are you looking for a fast-performing and user-friendly website to represent
+                your product or business? or looking for any kind of consultation? or want to ask questions? or have
+                some advice for me or just want to say "Hi 👋" in any case feel free to Let me know. I will do my best
+                to respond back. 😊 The quickest way to reach out to me are through my social handles:</div>
+            
+            <div class="handles">
+                <a href="mailto:aryansinghal126@gmail.com" target="_blank"><img src="/gmail.png" alt=""></a>
+             <a href="https://www.instagram.com/a_r_y_a_n_2_6/?next=%2F" target="_blank"><img src="/instagram.png" alt=""  > </a>  
+              <a href="https://github.com/aryan2683" target="_blank"><img src="/github.png" alt=""></a>
+              <a href="https://www.linkedin.com/in/aryan-singhal-1215b32aa/" target="_blank"><img src="/linkedin.png" alt=""></a>          
+            </div>
+            
+           </section>
+           
+    </main>
+  
+   
+   
+</body>
+
+</html>
